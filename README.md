@@ -50,7 +50,7 @@ And at the same time each node contains a list of its neighbors(=edges).
 
 ### main methods 
 
-*nodeDeepCopy : private method gets a graph and return a duplicate of his HashMap (In fact the method deep copies only the nodes without the edges).
+* nodeDeepCopy : private method gets a graph and return a duplicate of his HashMap (In fact the method deep copies only the nodes without the edges).
 * edgeDeepCopy : private method gets a graph and adds to this HashMap the same edges(In fact the method deep copies only the edges assuming the nodes are already in the graph).
 * getNode : return the node_data by the node unique key - O(1).
 * hasEdge : returns true if and only if there is an edge between node1 and node2 - O(1).
