@@ -40,7 +40,7 @@ Graph_DS class implement an undirectional and unweighted graph.
 It support a large number of nodes (over 10^6, with average degree of 10).
 This implementation is also based on HashMap data structure.
 Each Graph_DS contains few fields:
-‫* ‬g : HashMap data structure that represent a graph, used to store all the node_data in the graph.
+*‫ ‬g : HashMap data structure that represent a graph, used to store all the node_data in the graph.
 ‫*‬ numOfEdge : A variable that stored the amount of edges in this graph.
 ‫*‬ numOfNode : A variable that stored the amount of nodes in this graph.
 ‫*‬ mc : Mode Count, a variable that stored the amount of changes(add node, remove node, add edge, remove edge)made in this graph.
